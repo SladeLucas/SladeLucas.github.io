@@ -18,6 +18,12 @@ $(document).ready(function(){
         } 
     });
 });
+//resume popup
+function createPopup() {
+    let popup = window.open("imgs/Lucas_Slade_Resume-2.pdf", "popup", "width=600, height=400");
+    popup.document.write("<html><head><title>PDF Viewer</title></head><body><embed src='imgs/Lucas_Slade_Resume-2.pdf' width='100%' height='100%'></body></html>");
+}
+
 
 // protfolio filters
 $(window).on("load", function() {
