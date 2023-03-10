@@ -236,64 +236,68 @@
         <div class="row">
             <div class="blog-card">
                 <div class="img-holder">
-                    <img src="imgs/nxt2neighbor.gif">
+                    <img src="imgs/nxt2neighbor.gif" alt="nxt2neighbor">
                 </div>
                 <div class="content-holder">
                     <h6 class="title">Nxt2Neighbor</h6>
 
                     <p class="post-details">
-                        <a href="#">By: Admin</a>
-                        <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                        <a href="#"><i class="ti-comment"></i> 123</a>
+                        <a id="likeButton" onclick="like()"><i class="ti-heart text-danger"></i>0</a>
+
+<!--                        <a onclick="toggleCommentForm(1)"><i class="ti-comment"></i><input type="hidden" id="currentCard" value="1"> 0</a>-->
+
                     </p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium neque numquam mollitia modi quasi distinctio.</p>
+                    <p>A full functioning application, providing a unique perspective in the real estate online shopping experience. Designed the front-end redirect capabilities, nav bar functionality and design, and page styling. Implemented the database using Spring Boot 6, with multiple relational tables. Helped configure backend functionality utilizing MVC.  </p>
 
-                    <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p>
-                    <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
-
-                    <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    <p><b>Environment:</b></p>
+                    <p>JavaScript, CSS, BootStrap5, HTML, SpringBoot 6, Java, Thymeleaf, MySQL, JQuery</p>
+<!--                    <form id="commentForm1" class="comment-form">-->
+<!--                        <input type="text" id="commentInput1" placeholder="Enter your comment">-->
+<!--                        <button class="btn btn-danger" type="button" onclick="addComment(1)" onmouseup="toggleCommentForm(1)">Add</button>-->
+<!--                    </form>-->
                 </div>
-            </div><!-- end of blog wrapper -->
+            </div>
+            <!-- end of blog wrapper -->
 
-            <!-- blog-card -->
-            <div class="blog-card">
-                <div class="img-holder">
-                    <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="content-holder">
-                    <h6 class="title">Explicabo illo</h6>
+            <!-- extra blog-cards -->
+<!--            <div class="blog-card">-->
+<!--                <div class="img-holder">-->
+<!--                    <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">-->
+<!--                </div>-->
+<!--                <div class="content-holder">-->
+<!--                    <h6 class="title">Cage Movie Reviews</h6>-->
 
-                    <p class="post-details">
-                        <a href="#">By: Admin</a>
-                        <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                        <a href="#"><i class="ti-comment"></i> 264</a>
-                    </p>
+<!--                    <p class="post-details">-->
+<!--                        <a href="#">By: Admin</a>-->
+<!--                        <a href="#"><i class="ti-heart text-danger"></i> 456</a>-->
+<!--                        <a href="#"><i class="ti-comment"></i> 264</a>-->
+<!--                    </p>-->
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>-->
 
-                    <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div><!-- end of blog wrapper -->
-            <!-- blog-card -->
-            <div class="blog-card">
-                <div class="img-holder">
-                    <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="content-holder">
-                    <h4 class="title">Porro Quisqua</h4>
+<!--                    <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>-->
+<!--                </div>-->
+<!--            </div>&lt;!&ndash; end of blog wrapper &ndash;&gt;-->
+<!--            &lt;!&ndash; blog-card &ndash;&gt;-->
+<!--            <div class="blog-card">-->
+<!--                <div class="img-holder">-->
+<!--                    <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">-->
+<!--                </div>-->
+<!--                <div class="content-holder">-->
+<!--                    <h4 class="title">Porro Quisqua</h4>-->
 
-                    <p class="post-details">
-                        <a href="#">By: Admin</a>
-                        <a href="#"><i class="ti-heart text-danger"></i> 431</a>
-                        <a href="#"><i class="ti-comment"></i> 312</a>
-                    </p>
+<!--                    <p class="post-details">-->
+<!--                        <a href="#">By: Admin</a>-->
+<!--                        <a href="#"><i class="ti-heart text-danger"></i> 431</a>-->
+<!--                        <a href="#"><i class="ti-comment"></i> 312</a>-->
+<!--                    </p>-->
 
-                    <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+<!--                    <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>-->
 
-                    <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div><!-- end of blog wrapper -->
+<!--                    <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>-->
+<!--                </div>-->
+<!--            </div>&lt;!&ndash; end of blog wrapper &ndash;&gt;-->
 
         </div>
     </div>
@@ -305,15 +309,15 @@
             <div class="col-lg-8">
                 <div class="contact-form-card">
                     <h4 class="contact-title">Send a message</h4>
-                    <form action="">
+                    <form onsubmit="sendEmail(event)">
                         <div class="form-group">
-                            <input  class="form-control" type="text" placeholder="Name *" required>
+                            <input  id="name" class="form-control" type="text" placeholder="Name *" required>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="email" placeholder="Email *" required>
+                            <input id="email" class="form-control" type="email" placeholder="Email *" required>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" id=" placeholder="Message * rows="7" required></textarea>
+                            <textarea id="message" class="form-control" id=" placeholder="Message * rows="7" required></textarea>
                         </div>
                         <div class="form-group ">
                             <button type="submit" class="form-control btn btn-primary" >Send Message</button>
@@ -372,7 +376,7 @@
 <!-- core  -->
 <script src="vendors/jquery/jquery-3.4.1.js"></script>
 <script src="vendors/bootstrap/bootstrap.bundle.js"></script>
-
+<script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
 <!-- bootstrap 3 affix -->
 <script src="vendors/bootstrap/bootstrap.affix.js"></script>
 

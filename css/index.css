@@ -11661,3 +11661,10 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+.comment-form {
+  display: none;
+  margin-top: 10px;
+}
+.comments {
+  display: none;
+}
